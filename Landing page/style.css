@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav1 i{
+    padding-left:10px;
+}
+.nav2 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color:darkslategray;
+    color: white;
+    font-size: medium;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding-bottom: 15px;
+background-color:black;
+color: white;
+}
+.main img{
+    width: 100%;
+    height: 650px;
+    opacity: 0.7;
+    z-index: 1;
+}
+.main .text{
+position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px; 
+  color: black; 
+}
+.text p{
+    font-size: 40px;
+    background-color: beige;
+    opacity: 0.6;
+    text-align: center;
+}
+.text i{
+    padding: 6px;
+}
+.b1{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10PX;
+    padding-right: 10PX;
+    text-align: center;
+    border-radius: 20px; 
+    font-size: 20px;
+    margin-top: 13px;
+    background-color: white;
+    margin-left: 210px;
+}
+.b2{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5PX;
+    padding-right: 5PX;
+    text-align: center;
+    border-radius: 20px; 
+    font-size: 13px;
+    margin-top: 13px;
+    background-color:rgb(247, 244, 66);
+    margin-left: 260px;
+}
+.main2 img{
+    width: 200px;
+    height: 200px;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    color:black;
+   margin-top: 0;
+    padding-top: 100px;
+    height:450px;
+    line-height: 40px;
+}
+.main2 div{
+    text-align: center;
+    padding: 5px;
+}
+.b3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: red;
+    color: white;
+}
+.main2 i{
+    padding-left: 5px;
+}
+
+.pic1{
+    display: flex;
+    padding-right: 150px;
+    padding-top: 100px;
+    background-color:blanchedalmond;
+}
+.pic11{
+    text-align: center;
+    font-size: large;
+}
+.pic11 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.pic2{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color: darksalmon;
+    margin-top: 100px;
+}
+.pic22{
+    text-align: center;
+    font-size: large;
+}
+.pic22 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.main4{
+    position: relative;
+}
+.main4 img{
+    margin-top: 100px;
+height: 600px;
+width: 100%;
+opacity:0.9;
+z-index: 1;
+
+}
+.main4 .text4{
+    position:absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(0, 0, 0); 
+  text-align: center;
+  font-size: 30px;
+}
+.text4 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.pic3{
+    display: flex;
+    padding-right: 150px;
+    padding-top: 100px;
+    background-color:cadetblue;
+    margin-top: 100px;
+}
+.pic33{
+    text-align: center;
+    font-size: large;
+}
+.pic33 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.pic4{
+    display: flex;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color:lightblue;
+    margin-top: 100px;
+}
+.pic44{
+    text-align: center;
+    font-size: large;
+}
+.pic44 button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.footer{
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    line-height: 60px;
+}
+.footer i{
+    padding: 7px;
+}
